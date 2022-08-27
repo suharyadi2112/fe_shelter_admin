@@ -1,5 +1,10 @@
-function HomePage() {
-  return <div>this about.js</div>
+import Layout from '../components/Layout';
+export default function about(){
+	return(
+		<div>
+			<Layout>
+				<p>Ini halaman about</p>
+			</Layout>
+		</div>
+	)
 }
-
-export default HomePage
