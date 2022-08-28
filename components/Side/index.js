@@ -64,16 +64,16 @@ export default function Side(){
 
           <ul className="menu-inner py-1">
             <li className="menu-item active">
-              <a href="index.html" className="menu-link">
+              <Link href="/"><a className="menu-link">
                 <i className="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Email">Page 1</div>
-              </a>
+              </a></Link>
             </li>
             <li className="menu-item">
-              <a href="page-2.html" className="menu-link">
+              <Link href="/about"><a href="page-2.html" className="menu-link">
                 <i className="menu-icon tf-icons bx bx-detail"></i>
                 <div data-i18n="Email">Page 2</div>
-              </a>
+              </a></Link>
             </li>
           </ul>
 
