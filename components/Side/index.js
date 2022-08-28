@@ -70,7 +70,7 @@ export default function Side(){
               </a></Link>
             </li>
             <li className="menu-item">
-              <Link href="/about"><a href="page-2.html" className="menu-link">
+              <Link href="/about"><a href="#" className="menu-link">
                 <i className="menu-icon tf-icons bx bx-detail"></i>
                 <div data-i18n="Email">Page 2</div>
               </a></Link>
