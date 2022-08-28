@@ -1,12 +1,36 @@
-import Header from '../Header';
+import Side from '../Side';
 import Footer from '../Footer';
+import Header from '../Header';
+import Head from 'next/head'
 
 export default function Layout({ children }){
+
 	return (
 		<div>
-			<Header />
-				<div>{children}</div>
-			<Footer />
+			<Head>
+		        <title>Convert base template frest into NextJS by Suharyadi</title>
+		        <meta charSet="utf-8" />
+		        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+		        {/*<!-- Favicon -->*/}
+		        <link rel="shortcut icon" href="/static/favicon/favicon.ico" />
+		    </Head>
+
+		    {/*<!-- Layout wrapper -->*/}
+		    <div className="layout-wrapper layout-content-navbar">
+		      <div className="layout-container">
+					
+					<Side />{/*lokasi sidebar*/}
+
+					<div className="layout-page">
+
+						<Header />{/*lokasi header*/}
+							<div className="content-wrapper">
+								<div>{children}</div>
+								<Footer />{/*lokasi footer*/}
+							</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 }
