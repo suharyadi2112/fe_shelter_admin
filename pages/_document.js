@@ -18,7 +18,7 @@ export default function Document() {
         {/*// <!-- Core CSS -->*/}
         <link rel="stylesheet" href="/static/assets/vendor/css/rtl/core.css" />
         <link rel="stylesheet" href="/static/assets/vendor/css/rtl/theme-default.css" />
-        <link rel="stylesheet" href="/static/assets/css/demo.css" />
+        {/*<link rel="stylesheet" href="/static/assets/css/demo.css" />assets demo bawaan css template dipindah ke global css*/}
 
         {/*<!-- Vendors CSS -->*/}
         <link rel="stylesheet" href="/static/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
@@ -41,14 +41,14 @@ export default function Document() {
       <script src="/static/assets/vendor/js/bootstrap.js"></script>
       <script src="/static/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
       <script src="/static/assets/vendor/libs/hammer/hammer.js"></script>
-      {/*<script src="/static/assets/vendor/js/menu.js"></script>*/}
+      {/*<script src="/static/assets/vendor/js/menu.js"></script>  masih proses convert*/}
 
       {/*<!-- endbuild -->
 
       <!-- Vendors JS -->
 
       <!-- Main JS -->*/}
-      {/*<script src="/static/assets/js/main.js"></script>*/}
+      {/*<script src="/static/assets/js/main.js"></script> masih proses convert*/}
     </Html>
   )
 }
