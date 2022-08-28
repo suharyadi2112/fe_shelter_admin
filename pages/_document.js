@@ -2,7 +2,12 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="en"
+          className="light-style layout-navbar-fixed layout-menu-fixed"
+          dir="ltr"
+          data-theme="theme-default"
+          data-assets-path="/static/assets/"
+          data-template="vertical-menu-template-no-customizer-starter">
       <Head>
        {/*<!-- stylesheet direkomendasikan disini -->*/}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
