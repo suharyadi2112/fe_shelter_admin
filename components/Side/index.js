@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Side(){
 	return( 
 		<aside id="layout-menu" className="layout-menu menu-vertical menu bg-menu-theme">
-          <div className="app-brand demo">
+          <div className="app-brand demo cekk">
             <Link href="/"><a className="app-brand-link">
               <span className="app-brand-logo demo">
                 <svg width="26px" height="26px"viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
