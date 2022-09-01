@@ -3,6 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   return (
     <Html lang="en"
+                  // light-style layout-navbar-fixed layout-menu-fixed layout-menu-collapsed layout-menu-collapse
           className="light-style layout-navbar-fixed layout-menu-fixed"
           dir="ltr"
           data-theme="theme-default"
@@ -53,7 +54,7 @@ export default function Document() {
       <!-- Vendors JS -->
 
       <!-- Main JS -->*/}
-      {/*<script src="/static/assets/js/main.js"></script> masih proses convert*/}
+      <script src="/static/assets/js/main.js"></script>
     </Html>
   )
 }
