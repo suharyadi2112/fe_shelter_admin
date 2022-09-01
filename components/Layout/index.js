@@ -4,9 +4,8 @@ import Header from '../Header';
 import Head from 'next/head'
 
 export default function Layout({ children }){
-
 	return (
-		<div>
+		<>
 			<Head>
 		        <title>Convert base template frest into NextJS by Suharyadi</title>
 		        <meta charSet="utf-8" />
@@ -31,6 +30,6 @@ export default function Layout({ children }){
 					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 }
