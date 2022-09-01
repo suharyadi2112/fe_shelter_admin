@@ -1,4 +1,5 @@
 export default function Header(){
+ 
 	return( 
 		<nav className="layout-navbar navbar navbar-expand-xl align-items-center bg-navbar-theme" id="layout-navbar">
         <div className="container-fluid">
@@ -12,14 +13,15 @@ export default function Header(){
             <ul className="navbar-nav flex-row align-items-center ms-auto">
               {/*<!-- User -->*/}
               <li className="nav-item navbar-dropdown dropdown-user dropdown">
-                {/*<a className="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">*/}
+                <a className="nav-link dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                   <div className="avatar avatar-online">
                     <img src="static/assets/img/logos/kepala_hewan.png" alt="true" className="rounded-circle" />
                   </div>
-                {/*</a>*/}
+                </a>
+          
                 <ul className="dropdown-menu dropdown-menu-end">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" >
                       <div className="d-flex">
                         <div className="flex-shrink-0 me-3">
                           <div className="avatar avatar-online">
