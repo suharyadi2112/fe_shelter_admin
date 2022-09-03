@@ -7,7 +7,7 @@ export default function Layout({ children }){
 	return (
 		<>
 			<Head>
-		        <title>Convert base template frest into NextJS by Suharyadi</title>
+		        <title>RumaHewan</title>
 		        <meta charSet="utf-8" />
 		        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 		        {/*<!-- Favicon -->*/}
