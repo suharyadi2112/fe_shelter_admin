@@ -47,13 +47,13 @@ export default function Side(){
           <li className={router.pathname == "/" ? "menu-item active" : "menu-item"}>
             <Link href="/"><a className="menu-link">
               <i className="menu-icon tf-icons bx bx-home-circle"></i>
-              <div>Page 1</div>
+              <div>Dashboard</div>
             </a></Link>
           </li>
-          <li className={router.pathname == "/about" ? "menu-item active" : "menu-item"}>
-            <Link href="/about"><a className="menu-link">
-              <i className="menu-icon tf-icons bx bx-detail"></i>
-              <div>Page 2</div>
+          <li className={router.pathname == "/users" ? "menu-item active" : "menu-item"}>
+            <Link href="/users"><a className="menu-link">
+              <i className="menu-icon tf-icons bx bx-user"></i>
+              <div>Users</div>
             </a></Link>
           </li>
         </ul>
