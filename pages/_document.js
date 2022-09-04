@@ -10,6 +10,8 @@ export default function Document() {
           data-assets-path="/static/assets/"
           data-template="vertical-menu-template-no-customizer-starter">
       <Head>
+        {/*<!-- Favicon -->*/}
+        <link rel="shortcut icon" href="/static/favicon/logo.png" />
        {/*<!-- stylesheet direkomendasikan disini -->*/}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
@@ -17,6 +19,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
           rel="stylesheet"
         />
+
         {/*<!-- Icons. Uncomment required icon fonts -->*/}
         <link rel="stylesheet" href="/static/assets/vendor/fonts/boxicons.css" />
         {/*// <!-- Core CSS -->*/}
@@ -25,6 +28,8 @@ export default function Document() {
         {/*<link rel="stylesheet" href="/static/assets/css/demo.css" />assets demo bawaan css template dipindah ke global css*/}
         {/*<!-- Vendors CSS -->*/}
         <link rel="stylesheet" href="/static/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+        {/*<!-- Auth CSS -->*/}
+        <link rel="stylesheet" href="/static/assets/vendor/css/pages/page-auth.css" />
         {/*<!-- Helpers -->*/}
         <script src="/static/assets/vendor/js/helpers.js"></script>
         {/*<!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
@@ -37,9 +42,13 @@ export default function Document() {
         <NextScript />
           <script src="/static/assets/vendor/libs/popper/popper.js"></script>
           <script src="/static/assets/vendor/js/bootstrap.js"></script>
-          {/*<!-- endbuild -->
-          <!-- Main JS -->*/}
+
+          {/*<!-- Main JS -->*/}
           <script src="/static/assets/js/main.js"></script>
+
+          <script>
+          </script>
+
       </body>
 
     

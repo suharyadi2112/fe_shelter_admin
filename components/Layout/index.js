@@ -10,8 +10,6 @@ export default function Layout({ children }){
 		        <title>RumaHewan</title>
 		        <meta charSet="utf-8" />
 		        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-		        {/*<!-- Favicon -->*/}
-		        <link rel="shortcut icon" href="/static/favicon/logo.png" />
 		    </Head>
 
 		    {/*<!-- Layout wrapper -->*/}
